@@ -1,15 +1,13 @@
-/* Global styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Navbar styles */
 .navbar {
     background-color: #333;
     display: flex;
-    justify-content: center;
+    justify-content:flex-end;
     align-items: center;
     height: 60px;
 }
@@ -20,24 +18,21 @@ body {
     text-decoration: none;
 }
 
-/* Main content styles */
 main {
     padding: 20px;
 }
 
-/* Greeting section styles */
 .greeting {
     text-align: center;
 }
 
-/* About and Form section styles */
 .about, .form {
     margin-top: 20px;
     border: 1px solid #ccc;
     padding: 20px;
 }
 
-.form label, .form input, .form button {
+.form label, .form button {
     display: block;
     margin-bottom: 10px;
 }
@@ -50,7 +45,6 @@ main {
     cursor: pointer;
 }
 
-/* Form container and results container styles */
 .form-container {
     flex: 1;
     margin-right: 20px;
@@ -62,9 +56,8 @@ main {
     padding: 10px;
 }
 
-/* Form section specific styles */
 .form {
-    padding: 40px;
+    padding: 50px;
     background-color: #f5f5f5;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -81,9 +74,24 @@ form label {
     margin-bottom: 5px;
 }
 
-form input[type="text"],
-form input[type="email"] {
-    width: 100%;
+.form-results-container {
+    display: flex;
+    margin-left: 20px;
+}
+
+.form-container,
+.results-container {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+form input {
+    width: 92%;
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ccc;
@@ -106,9 +114,7 @@ form button[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-/* Banner section styles */
 .banner {
-    background-image: url('path-to-your-image.jpg');
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -127,25 +133,29 @@ form button[type="submit"]:hover {
     border-radius: 5px;
 }
 
-/* About-school section styles */
-.about-school {
+.about-me {
     padding: 40px;
     text-align: center;
 }
 
-/* Vision-mission section styles */
 .vision-mission {
     background-color: #f5f5f5;
     padding: 40px;
 }
 
-.mission h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+.vision-mission h2 {
+    font-size: 5rem;
 }
 
-/* Form results styles */
+.mission h3, .vision h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2px;
+}
+
+.mission p, .vision p {
+    margin-top: 1px;
+}
+
 #form-results {
     margin-top: 20px;
 }
-

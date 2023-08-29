@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
+    <title>web Cuway</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,24 +13,32 @@
     </div>
     <main>
         <section class="greeting">
-            <h1>Welcome to Our Website!</h1>
+            <img src="rvo.png" alt="gambar logo">
+            <h1>Selamat Datang di website kuu!</h1>
             <p id="greeting"></p>
         </section>
         <section class="about">
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida leo quis malesuada.</p>
+            <h2>About Me</h2>
+            <p>Disini saya ingin mengenal kalian melalui email dan nama kalian.</p>
         </section>
         <section class="form">
-            <h2>Contact Us</h2>
-            <form id="contact-form">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <button type="submit">Submit</button>
-            </form>
-            <div id="form-results">
-                <!-- Input results will be displayed here -->
+            <div class="form-results-container">
+                <div class="form-container">
+                    <h2>Nama & Email</h2>
+                    <form id="contact-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="results-container">
+                    <h2>Hasil Form</h2>
+                    <div id="form-results">
+                        <!-- Input results will be displayed here -->
+                    </div>
+                </div>
             </div>
         </section>
     </main>
