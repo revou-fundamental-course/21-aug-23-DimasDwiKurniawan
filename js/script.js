@@ -16,4 +16,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
         formResults.innerHTML = resultText;
     });
+    
 });
